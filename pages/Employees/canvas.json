@@ -942,51 +942,6 @@
               "minDynamicHeight": 4
             },
             {
-              "resetFormOnClick": false,
-              "boxShadow": "none",
-              "widgetName": "Button2Copy2Copy3Copy2",
-              "onClick": "{{showModal('Modal2')}}",
-              "buttonColor": "#312e81",
-              "displayName": "Button",
-              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-              "searchTags": [
-                "click",
-                "submit"
-              ],
-              "topRow": 22,
-              "bottomRow": 28,
-              "parentRowSpace": 10,
-              "type": "BUTTON_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 18.1875,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onClick"
-                }
-              ],
-              "leftColumn": 55,
-              "dynamicBindingPathList": [],
-              "text": "Assign Asset",
-              "isDisabled": false,
-              "key": "fv3fbhghan",
-              "isDeprecated": false,
-              "rightColumn": 62,
-              "isDefaultClickDisabled": true,
-              "widgetId": "vinsxhmlmh",
-              "isVisible": true,
-              "recaptchaType": "V3",
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "disabledWhenInvalid": false,
-              "borderRadius": "0.375rem",
-              "buttonVariant": "PRIMARY",
-              "iconAlign": "left",
-              "placement": "CENTER"
-            },
-            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Container6Copy",
               "borderColor": "#E0DEDE",
@@ -1066,7 +1021,7 @@
                           "leftColumn": 14,
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{employeeList.listData.map((currentItem) => currentItem.first_name + ' ' + currentItem.last_name)}}",
+                          "text": "{{employeeList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  employeeList.selectedItem.first_name + ' ' + currentItem.last_name;\n              })();\n            })}}",
                           "key": "wrk22k5eyt",
                           "isDeprecated": false,
                           "rightColumn": 64,
@@ -1155,7 +1110,7 @@
                           ],
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{employeeList.listData.map((currentItem) => currentItem.email)}}",
+                          "text": "{{employeeList.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  employeeList.selectedItem.time;\n              })();\n            })}}",
                           "key": "wrk22k5eyt",
                           "isDeprecated": false,
                           "rightColumn": 64,
@@ -1436,18 +1391,6 @@
                         },
                         {
                           "key": "template.Text15Copy.text"
-                        },
-                        {
-                          "key": "template.IconButton2.iconName"
-                        },
-                        {
-                          "key": "template.IconButton2.buttonVariant"
-                        },
-                        {
-                          "key": "template.Text13Copy.fontStyle"
-                        },
-                        {
-                          "key": "template.IconButton2.borderRadius"
                         }
                       ],
                       "gridType": "vertical",
@@ -1552,7 +1495,7 @@
                                       "leftColumn": 14,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "{{currentItem.first_name}} {{currentItem.last_name}}",
+                                      "text": "{{employeeList.selectedItem.first_name}} {{currentItem.last_name}}",
                                       "key": "wrk22k5eyt",
                                       "isDeprecated": false,
                                       "rightColumn": 64,
@@ -1641,7 +1584,7 @@
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "{{currentItem.email}}",
+                                      "text": "{{employeeList.selectedItem.time}}",
                                       "key": "wrk22k5eyt",
                                       "isDeprecated": false,
                                       "rightColumn": 64,
@@ -2178,6 +2121,9 @@
                           "key": "tableData"
                         },
                         {
+                          "key": "primaryColumns.price.computedValue"
+                        },
+                        {
                           "key": "primaryColumns.notes.computedValue"
                         },
                         {
@@ -2206,9 +2152,6 @@
                         },
                         {
                           "key": "accentColor"
-                        },
-                        {
-                          "key": "primaryColumns.price.computedValue"
                         }
                       ],
                       "leftColumn": 1,
@@ -2632,8 +2575,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 29,
-              "bottomRow": 77,
+              "topRow": 30,
+              "bottomRow": 78,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -2644,10 +2587,10 @@
               "leftColumn": 21,
               "dynamicBindingPathList": [
                 {
-                  "key": "boxShadow"
+                  "key": "isVisible"
                 },
                 {
-                  "key": "isVisible"
+                  "key": "boxShadow"
                 }
               ],
               "children": [
@@ -2655,7 +2598,7 @@
                   "widgetName": "Canvas14",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 480,
+                  "bottomRow": 470,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -3795,8 +3738,8 @@
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17.svg",
-                      "topRow": 1,
-                      "bottomRow": 46,
+                      "topRow": 0,
+                      "bottomRow": 45,
                       "parentRowSpace": 10,
                       "onPageChange": "{{employee_assignments.run()}}",
                       "type": "LIST_WIDGET",
@@ -3809,70 +3752,10 @@
                           "key": "onPageChange"
                         }
                       ],
-                      "leftColumn": 1,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "listData"
-                        },
-                        {
-                          "key": "template.Image1Copy.defaultImage"
-                        },
-                        {
-                          "key": "template.Text17CopyCopy.text"
-                        },
-                        {
-                          "key": "template.Text7CopyCopy.text"
-                        },
-                        {
-                          "key": "template.Text7CopyCopy.textColor"
-                        },
-                        {
-                          "key": "template.Text7Copy1.text"
-                        },
-                        {
-                          "key": "template.Image1Copy.defaultImage"
-                        },
-                        {
-                          "key": "template.Text17Copy1.text"
-                        },
-                        {
-                          "key": "template.Image1Copy.objectFit"
-                        },
-                        {
-                          "key": "template.Text7Copy1.fontSize"
-                        },
-                        {
-                          "key": "template.Text7CopyCopy.fontSize"
-                        },
-                        {
-                          "key": "template.Text7Copy1Copy.text"
-                        },
-                        {
-                          "key": "template.Text7Copy1Copy1.text"
-                        },
-                        {
-                          "key": "template.Text17CopyCopy.overflow"
-                        },
-                        {
-                          "key": "template.Input1.label"
-                        },
-                        {
-                          "key": "template.Input1.labelStyle"
-                        },
-                        {
-                          "key": "template.Button6.buttonVariant"
-                        },
-                        {
-                          "key": "template.Button6.text"
-                        },
-                        {
-                          "key": "template.Divider1.thickness"
-                        },
-                        {
-                          "key": "template.Input1Copy.label"
-                        },
-                        {
-                          "key": "template.Input1CopyCopy.label"
                         }
                       ],
                       "gridType": "vertical",
@@ -5002,7 +4885,7 @@
                       "key": "rlznr16x6c",
                       "labelTextSize": "0.875rem",
                       "backgroundColor": "transparent",
-                      "rightColumn": 62,
+                      "rightColumn": 63,
                       "itemBackgroundColor": "#FFFFFF",
                       "widgetId": "k61omoehzv",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
