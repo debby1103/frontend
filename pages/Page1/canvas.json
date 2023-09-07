@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -27,13 +27,88 @@
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
+              "widgetName": "Text7Copy1Copy1",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b52.svg",
+              "topRow": 63,
+              "bottomRow": 67,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "dynamicTriggerPathList": [],
+              "fontFamily": "System Default",
+              "dynamicBindingPathList": [
+                {
+                  "key": "text"
+                }
+              ],
+              "leftColumn": 17,
+              "shouldTruncate": false,
+              "truncateButtonColor": "#FFC13D",
+              "text": "<strong>Words important to prediction:</strong> {{currentItem.negativity}}",
+              "key": "i5hlgg4v10",
+              "labelTextSize": "0.875rem",
+              "rightColumn": 49,
+              "textAlign": "LEFT",
+              "dynamicHeight": "FIXED",
+              "widgetId": "o3ewrbakp3",
+              "logBlackList": {
+                "isVisible": true,
+                "text": true,
+                "fontSize": true,
+                "fontStyle": true,
+                "textAlign": true,
+                "textColor": true,
+                "truncateButtonColor": true,
+                "widgetName": true,
+                "shouldTruncate": true,
+                "overflow": true,
+                "version": true,
+                "animateLoading": true,
+                "type": true,
+                "hideCard": true,
+                "displayName": true,
+                "key": true,
+                "iconSVG": true,
+                "isCanvas": true,
+                "textStyle": true,
+                "dynamicBindingPathList": true,
+                "dynamicTriggerPathList": true,
+                "minHeight": true,
+                "widgetId": true,
+                "renderMode": true,
+                "isLoading": true,
+                "parentColumnSpace": true,
+                "parentRowSpace": true,
+                "leftColumn": true,
+                "rightColumn": true,
+                "topRow": true,
+                "bottomRow": true,
+                "parentId": true
+              },
+              "isVisible": true,
+              "fontStyle": "",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "fontSize": "1rem",
+              "textStyle": "BODY",
+              "minDynamicHeight": 4
+            },
+            {
               "schema": {
                 "__root_schema__": {
                   "children": {
                     "name": {
                       "children": {},
                       "dataType": "string",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.name))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                      "defaultValue": "Aaron",
                       "fieldType": "Text Input",
                       "sourceData": "John Wick",
                       "isCustomField": false,
@@ -82,8 +157,8 @@
                     "employee_id": {
                       "children": {},
                       "dataType": "number",
-                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.employee_id))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                      "fieldType": "Select",
+                      "defaultValue": "Male",
+                      "fieldType": "Text Input",
                       "sourceData": 1001,
                       "isCustomField": false,
                       "accessor": "employee_id",
@@ -93,14 +168,13 @@
                       "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                       "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                       "boxShadow": "none",
+                      "iconAlign": "left",
                       "isDisabled": false,
-                      "isFilterable": false,
                       "isRequired": false,
+                      "isSpellCheck": false,
                       "isVisible": true,
-                      "label": "Gender",
                       "labelTextSize": "0.875rem",
-                      "serverSideFiltering": false,
-                      "options": "[\n  {\n    \"label\": \"Male\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]"
+                      "label": "Gender"
                     },
                     "customField1": {
                       "children": {},
@@ -121,12 +195,14 @@
                       "isSpellCheck": false,
                       "isVisible": true,
                       "labelTextSize": "0.875rem",
-                      "label": "ID"
+                      "label": "ID",
+                      "defaultValue": "1"
                     },
                     "customField2": {
                       "children": {},
                       "dataType": "string",
-                      "fieldType": "Text Input",
+                      "defaultValue": "I'm planning a trip to the Arctic next year!",
+                      "fieldType": "Multiline Text Input",
                       "sourceData": "",
                       "isCustomField": true,
                       "accessor": "customField2",
@@ -189,7 +265,7 @@
                 "json form"
               ],
               "topRow": 6,
-              "bottomRow": 56,
+              "bottomRow": 62,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Personal Information",
@@ -198,7 +274,7 @@
               "animateLoading": true,
               "parentColumnSpace": 13.90625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 1,
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -219,9 +295,6 @@
                   "key": "resetButtonStyles.borderRadius"
                 },
                 {
-                  "key": "schema.__root_schema__.children.name.defaultValue"
-                },
-                {
                   "key": "schema.__root_schema__.children.name.accentColor"
                 },
                 {
@@ -235,9 +308,6 @@
                 },
                 {
                   "key": "schema.__root_schema__.children.date_of_birth.borderRadius"
-                },
-                {
-                  "key": "schema.__root_schema__.children.employee_id.defaultValue"
                 },
                 {
                   "key": "schema.__root_schema__.children.employee_id.accentColor"
@@ -268,17 +338,13 @@
                 }
               ],
               "borderWidth": "1",
-              "sourceData": {
-                "name": "John Wick",
-                "date_of_birth": "20/02/1990",
-                "employee_id": 1001
-              },
+              "sourceData": "{\n  \"name\": \"John Wick\",\n  \"date_of_birth\": \"20/02/1990\",\n  \"employee_id\": 1001\n}",
               "showReset": false,
               "resetButtonLabel": "重置",
               "key": "gm8cbemu8t",
               "backgroundColor": "#fff",
               "isDeprecated": false,
-              "rightColumn": 21,
+              "rightColumn": 22,
               "dynamicHeight": "FIXED",
               "autoGenerateForm": true,
               "widgetId": "exx5b62mrx",
@@ -724,7 +790,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "1",
                       "minDynamicHeight": 4
                     },
                     {
