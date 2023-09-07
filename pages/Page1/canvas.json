@@ -27,79 +27,110 @@
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "none",
-              "widgetName": "Text7Copy1Copy1",
-              "displayName": "Text",
-              "iconSVG": "/static/media/icon.97c59b52.svg",
-              "topRow": 63,
-              "bottomRow": 67,
-              "type": "TEXT_WIDGET",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Chart1Copy",
+              "allowScroll": false,
+              "displayName": "图表",
+              "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations",
+                "chart"
+              ],
+              "topRow": 33,
+              "bottomRow": 56,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
               "hideCard": false,
-              "animateLoading": true,
-              "overflow": "NONE",
+              "chartData": {
+                "1v3itc527r": {
+                  "seriesName": "",
+                  "data": "[\n  {\n    \"x\": \"Post 1\",\n    \"y\": 0.0\n  },\n  {\n    \"x\": \"Post 12\",\n    \"y\": 2.0\n  },\n  {\n    \"x\": \"Post 19\",\n    \"y\": 1.0\n  },\n    {\n    \"x\": \"Post 25\",\n    \"y\": 3.0\n  },\n      {\n    \"x\": \"Now\",\n    \"y\": 3.0\n  }\n]"
+                }
+              },
+              "animateLoading": false,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.90625,
               "dynamicTriggerPathList": [],
-              "fontFamily": "System Default",
+              "leftColumn": 22,
               "dynamicBindingPathList": [
                 {
-                  "key": "text"
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
                 }
               ],
-              "leftColumn": 17,
-              "shouldTruncate": false,
-              "truncateButtonColor": "#FFC13D",
-              "text": "<strong>Words important to prediction:</strong> {{currentItem.negativity}}",
-              "key": "i5hlgg4v10",
-              "labelTextSize": "0.875rem",
-              "rightColumn": 49,
-              "textAlign": "LEFT",
-              "dynamicHeight": "FIXED",
-              "widgetId": "o3ewrbakp3",
-              "logBlackList": {
-                "isVisible": true,
-                "text": true,
-                "fontSize": true,
-                "fontStyle": true,
-                "textAlign": true,
-                "textColor": true,
-                "truncateButtonColor": true,
-                "widgetName": true,
-                "shouldTruncate": true,
-                "overflow": true,
-                "version": true,
-                "animateLoading": true,
-                "type": true,
-                "hideCard": true,
-                "displayName": true,
-                "key": true,
-                "iconSVG": true,
-                "isCanvas": true,
-                "textStyle": true,
-                "dynamicBindingPathList": true,
-                "dynamicTriggerPathList": true,
-                "minHeight": true,
-                "widgetId": true,
-                "renderMode": true,
-                "isLoading": true,
-                "parentColumnSpace": true,
-                "parentRowSpace": true,
-                "leftColumn": true,
-                "rightColumn": true,
-                "topRow": true,
-                "bottomRow": true,
-                "parentId": true
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "产品1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "产品2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "产品3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "销售报告",
+                    "xAxisName": "产品线",
+                    "yAxisName": "收入（元）",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
               },
+              "key": "f7347cz6hr",
+              "isDeprecated": false,
+              "rightColumn": 49,
+              "widgetId": "6dmxssne5i",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
-              "fontStyle": "",
-              "textColor": "#231F20",
               "version": 1,
               "parentId": "0",
+              "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0px",
-              "maxDynamicHeight": 9000,
-              "fontSize": "1rem",
-              "textStyle": "BODY",
-              "minDynamicHeight": 4
+              "yAxisName": "Risk Level",
+              "chartName": "Contribution of Each Post",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "Post ID",
+              "chartType": "LINE_CHART"
             },
             {
               "schema": {
@@ -264,8 +295,8 @@
               "searchTags": [
                 "json form"
               ],
-              "topRow": 6,
-              "bottomRow": 62,
+              "topRow": 0,
+              "bottomRow": 31,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Personal Information",
@@ -457,15 +488,16 @@
                 "group",
                 "container"
               ],
-              "topRow": 41,
-              "bottomRow": 62,
+              "topRow": 31,
+              "bottomRow": 56,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 13.90625,
-              "leftColumn": 22,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 2,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -479,12 +511,12 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 210,
+                  "bottomRow": 250,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 210,
+                  "minHeight": 250,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -677,8 +709,8 @@
               "key": "gepat69ha3",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 49,
-              "dynamicHeight": "AUTO_HEIGHT",
+              "rightColumn": 22,
+              "dynamicHeight": "FIXED",
               "widgetId": "z077hvdacn",
               "containerStyle": "card",
               "isVisible": true,
@@ -686,10 +718,8 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 41,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 62,
               "minDynamicHeight": 10
             },
             {
@@ -705,8 +735,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 6,
-              "bottomRow": 16,
+              "topRow": 0,
+              "bottomRow": 10,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -885,8 +915,8 @@
                 "visualisations",
                 "chart"
               ],
-              "topRow": 17,
-              "bottomRow": 40,
+              "topRow": 10,
+              "bottomRow": 33,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
