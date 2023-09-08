@@ -1973,7 +1973,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dashboard_assetByType",
               "name": "assetByType",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1981,7 +1980,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_assetsByMakeDefault",
               "name": "assetsByMakeDefault",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1989,7 +1987,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_assetsbyDepartment",
               "name": "assetsbyDepartment",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -1997,7 +1994,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_assignedAssets",
               "name": "assignedAssets",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2005,7 +2001,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_checkedOutAssets",
               "name": "checkedOutAssets",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2013,7 +2008,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Dashboard_totalAssets",
               "name": "totalAssets",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -2023,7 +2017,6 @@
           ],
           [
             {
-              "id": "Dashboard_assetsByMake",
               "name": "assetsByMake",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

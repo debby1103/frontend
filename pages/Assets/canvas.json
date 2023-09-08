@@ -4648,8 +4648,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Assets_FilterType",
+              "id": "Page12_JSObject1.onOpen",
               "name": "FilterType",
+              "collectionId": "Page12_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -4658,8 +4659,9 @@
           ],
           [
             {
-              "id": "Assets_getAssets",
+              "id": "Page12_JSObject1.onOpen",
               "name": "getAssets",
+              "collectionId": "Page12_JSObject1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

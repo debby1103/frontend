@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "id": "Page12",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard2",
+      "isDefault": false
+    },
+    {
       "id": "Dashboard",
       "isDefault": false
     },
@@ -20,8 +28,8 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#FFDEDE",
-  "icon": "alien",
+  "color": "#C7F3E3",
+  "icon": "email",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
