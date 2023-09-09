@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1250,
+          "bottomRow": 1200,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -37,8 +37,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 57,
-              "bottomRow": 117,
+              "topRow": 52,
+              "bottomRow": 112,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -309,7 +309,7 @@
                               "label": "{{employeeListCopy.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.key3;\n              })();\n            })}}",
                               "iconName": "{{employeeListCopy.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'dot';\n              })();\n            })}}",
                               "id": "groupButton3",
-                              "buttonType": "MENU",
+                              "buttonType": "{{employeeListCopy.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'SIMPLE';\n              })();\n            })}}",
                               "placement": "CENTER",
                               "widgetId": "",
                               "isVisible": true,
@@ -481,6 +481,9 @@
                         },
                         {
                           "key": "template.ButtonGroup1.groupButtons.groupButton3.iconName"
+                        },
+                        {
+                          "key": "template.ButtonGroup1.groupButtons.groupButton3.buttonType"
                         }
                       ],
                       "gridType": "vertical",
@@ -680,7 +683,7 @@
                                           "label": "{{currentItem.key3}}",
                                           "iconName": "dot",
                                           "id": "groupButton3",
-                                          "buttonType": "MENU",
+                                          "buttonType": "SIMPLE",
                                           "placement": "CENTER",
                                           "widgetId": "",
                                           "isVisible": true,
@@ -757,7 +760,7 @@
                                       "key": "n8ahzjjezb",
                                       "orientation": "horizontal",
                                       "isDeprecated": false,
-                                      "rightColumn": 51,
+                                      "rightColumn": 58,
                                       "widgetId": "jz40e4e498",
                                       "logBlackList": {
                                         "isVisible": true,
@@ -903,7 +906,7 @@
                       "text": "<strong>Top key words (frequency)</strong>",
                       "key": "czyq0gtp0e",
                       "labelTextSize": "0.875rem",
-                      "rightColumn": 26,
+                      "rightColumn": 33,
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "idk1k7n9ho",
@@ -3270,8 +3273,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 9,
-              "bottomRow": 57,
+              "topRow": 4,
+              "bottomRow": 52,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -4743,7 +4746,7 @@
                                       "text": "<strong>Important Inputs:</strong> {{employeeList.selectedItem.part}}",
                                       "key": "i5hlgg4v10",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 54,
+                                      "rightColumn": 64,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "FIXED",
                                       "widgetId": "1e37auulx4",
@@ -4818,7 +4821,7 @@
                                       "text": "<strong>Real-time Risk:</strong> {{employeeList.selectedItem.risk}}",
                                       "key": "i5hlgg4v10",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 49,
+                                      "rightColumn": 53,
                                       "textAlign": "LEFT",
                                       "dynamicHeight": "FIXED",
                                       "widgetId": "i4ejy58guf",
@@ -4980,7 +4983,7 @@
                                           "key": "textColor"
                                         }
                                       ],
-                                      "leftColumn": 49,
+                                      "leftColumn": 53,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
                                       "text": "{{currentItem.date_returned === null ? \"No\" : currentItem.date_returned}}",
@@ -5406,7 +5409,7 @@
                                       "isDisabled": false,
                                       "key": "fvy9nfj74y",
                                       "isDeprecated": false,
-                                      "rightColumn": 62,
+                                      "rightColumn": 63,
                                       "isDefaultClickDisabled": true,
                                       "widgetId": "d4c6alzu9w",
                                       "logBlackList": {

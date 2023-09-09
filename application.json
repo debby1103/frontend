@@ -31,7 +31,7 @@
   "color": "#C7F3E3",
   "icon": "email",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
