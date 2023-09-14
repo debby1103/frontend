@@ -95,9 +95,6 @@
               "dynamicBindingPathList": [
                 {
                   "key": "text"
-                },
-                {
-                  "key": "isVisible"
                 }
               ],
               "truncateButtonColor": "#FFC13D",
@@ -108,7 +105,7 @@
               "textAlign": "LEFT",
               "dynamicHeight": "FIXED",
               "widgetId": "uo42dr1b35",
-              "isVisible": "{{!!employeeList.selectedItem.id}}",
+              "isVisible": "",
               "fontStyle": "",
               "textColor": "#231F20",
               "version": 1,
@@ -3113,11 +3110,7 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "isVisible"
-                        }
-                      ],
+                      "dynamicBindingPathList": [],
                       "truncateButtonColor": "#FFC13D",
                       "text": "<strong>Top key words (frequency)</strong>",
                       "key": "czyq0gtp0e",
@@ -3126,7 +3119,7 @@
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "idk1k7n9ho",
-                      "isVisible": "{{!!employeeList.selectedItem.id}}",
+                      "isVisible": "",
                       "fontStyle": "",
                       "textColor": "#231F20",
                       "version": 1,
