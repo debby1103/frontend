@@ -40,8 +40,8 @@
                 "visualisations",
                 "chart"
               ],
-              "topRow": 36,
-              "bottomRow": 65,
+              "topRow": 64,
+              "bottomRow": 93,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
@@ -55,7 +55,7 @@
               "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 13.90625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 31,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -119,7 +119,7 @@
               },
               "key": "f7347cz6hr",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 31,
               "widgetId": "6dmxssne5i",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -456,7 +456,7 @@
               "searchTags": [
                 "json form"
               ],
-              "bottomRow": 32,
+              "bottomRow": 34,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Personal Information",
@@ -469,7 +469,7 @@
               "key": "gm8cbemu8t",
               "backgroundColor": "#fff",
               "isDeprecated": false,
-              "rightColumn": 43,
+              "rightColumn": 37,
               "widgetId": "exx5b62mrx",
               "parentId": "0",
               "renderMode": "CANVAS",
@@ -493,7 +493,7 @@
                 "container"
               ],
               "topRow": 11,
-              "bottomRow": 32,
+              "bottomRow": 34,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -501,7 +501,7 @@
               "animateLoading": true,
               "parentColumnSpace": 13.90625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 3,
+              "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -515,12 +515,12 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 210,
+                  "bottomRow": 220,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 210,
+                  "minHeight": 230,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -749,7 +749,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 13.90625,
-              "leftColumn": 3,
+              "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -926,8 +926,8 @@
                 "visualisations",
                 "chart"
               ],
-              "topRow": 36,
-              "bottomRow": 65,
+              "topRow": 35,
+              "bottomRow": 64,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
@@ -945,7 +945,7 @@
                   "key": "onDataPointClick"
                 }
               ],
-              "leftColumn": 0,
+              "leftColumn": 5,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -1010,7 +1010,7 @@
               "onDataPointClick": "{{showAlert('Post 25:What did I do wrong? Why do I have to live such a burdensome life? I don\\'t want to add any more scars to my arm','info')}}",
               "key": "f7347cz6hr",
               "isDeprecated": false,
-              "rightColumn": 31,
+              "rightColumn": 36,
               "widgetId": "8b74zri2b3",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
