@@ -1,22 +1,6 @@
 {
   "pages": [
     {
-      "id": "Page12",
-      "isDefault": false
-    },
-    {
-      "id": "Dashboard2",
-      "isDefault": false
-    },
-    {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "Assets",
-      "isDefault": false
-    },
-    {
       "id": "Employees",
       "isDefault": false
     },
