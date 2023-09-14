@@ -3495,7 +3495,7 @@
                           ],
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Time: </strong>' + employeeList.selectedItem.time;\n              })();\n            })}}",
+                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Time: </strong>July 8, 2019, 19:53';\n              })();\n            })}}",
                           "key": "jt2teg2lzv",
                           "isDeprecated": false,
                           "rightColumn": 64,
@@ -4393,6 +4393,9 @@
                         },
                         {
                           "key": "template.Text17CopyCopy.text"
+                        },
+                        {
+                          "key": "template.Text17Copy1.text"
                         }
                       ],
                       "gridType": "vertical",
@@ -5060,15 +5063,12 @@
                                       "leftColumn": 17,
                                       "dynamicBindingPathList": [
                                         {
-                                          "key": "text"
-                                        },
-                                        {
                                           "key": "fontFamily"
                                         }
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "<strong>Time: </strong>{{employeeList.selectedItem.time}}",
+                                      "text": "<strong>Time: </strong>July 8, 2019, 19:53",
                                       "key": "jt2teg2lzv",
                                       "isDeprecated": false,
                                       "rightColumn": 64,
