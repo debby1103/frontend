@@ -909,6 +909,11 @@
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Chart1",
               "allowScroll": false,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onDataPointClick"
+                }
+              ],
               "displayName": "图表",
               "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
               "searchTags": [
@@ -998,7 +1003,7 @@
                   }
                 }
               },
-              "onDataPointClick": "{{showAlert('Post 25:What did I do wrong? Why do I have to live such a burdensome life? I don\\'t want to add any more scars to my arm')}}",
+              "onDataPointClick": "{{showAlert('Post 25:What did I do wrong? Why do I have to live such a burdensome life? I don\\'t want to add any more scars to my arm','info')}}",
               "key": "f7347cz6hr",
               "isDeprecated": false,
               "rightColumn": 49,
