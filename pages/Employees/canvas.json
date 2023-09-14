@@ -3296,7 +3296,7 @@
                   "widgetName": "Canvas14",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 480,
+                  "bottomRow": 470,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -3329,7 +3329,7 @@
                           "leftColumn": 0,
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Negativity:</strong> ' + employeeList.selectedItem.negativity;\n              })();\n            })}}",
+                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Negativity:</strong> 2';\n              })();\n            })}}",
                           "key": "i5hlgg4v10",
                           "labelTextSize": "0.875rem",
                           "rightColumn": 28,
@@ -3580,7 +3580,7 @@
                           ],
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Content: </strong>' + employeeList.selectedItem.content;\n              })();\n            })}}",
+                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Content: </strong>Recently, I've been feeling absent-minded. To be honest, if I got dumped, it's my own fault. I don't even like myself anymore—I'm spoiled, selfish, always looking for small advantages, not studying or working hard, just eating and sleeping all day, and spending the rest of my time on useless chatter and playing with my phone. I've developed thick dark circles under my eyes. I've been living like this for the past eleven days, and it's really shocking to me. I don't have a sense of purpose, or maybe I do, but I just can't muster the energy. Today, I had a video call with my significant other, and as I looked at my increasingly chubby face and greasy hair... the whole text [SEP] I gradually became uninteresting, and I don't know why. Truly, I saw you giving up on me.';\n              })();\n            })}}",
                           "key": "jt2teg2lzv",
                           "isDeprecated": false,
                           "rightColumn": 64,
@@ -3767,7 +3767,7 @@
                           "leftColumn": 17,
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Real-time Risk:</strong> ' + employeeList.selectedItem.risk;\n              })();\n            })}}",
+                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Real-time Risk:</strong> 3';\n              })();\n            })}}",
                           "key": "i5hlgg4v10",
                           "labelTextSize": "0.875rem",
                           "rightColumn": 32,
@@ -3842,7 +3842,7 @@
                           "leftColumn": 17,
                           "shouldTruncate": false,
                           "truncateButtonColor": "#FFC13D",
-                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Important Inputs:</strong> ' + employeeList.selectedItem.part;\n              })();\n            })}}",
+                          "text": "{{assetsAssigned.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  '<strong>Important Inputs:</strong> absent-minded; giving up; fault';\n              })();\n            })}}",
                           "key": "i5hlgg4v10",
                           "labelTextSize": "0.875rem",
                           "rightColumn": 32,
@@ -4381,6 +4381,18 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "listData"
+                        },
+                        {
+                          "key": "template.Text7Copy1.text"
+                        },
+                        {
+                          "key": "template.Text7Copy1Copy.text"
+                        },
+                        {
+                          "key": "template.Text7Copy1Copy1.text"
+                        },
+                        {
+                          "key": "template.Text17CopyCopy.text"
                         }
                       ],
                       "gridType": "vertical",
@@ -4662,15 +4674,11 @@
                                       "overflow": "NONE",
                                       "dynamicTriggerPathList": [],
                                       "fontFamily": "System Default",
-                                      "dynamicBindingPathList": [
-                                        {
-                                          "key": "text"
-                                        }
-                                      ],
+                                      "dynamicBindingPathList": [],
                                       "leftColumn": 17,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "<strong>Important Inputs:</strong> {{employeeList.selectedItem.part}}",
+                                      "text": "<strong>Important Inputs:</strong> absent-minded; giving up; fault",
                                       "key": "i5hlgg4v10",
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 64,
@@ -4737,15 +4745,11 @@
                                       "overflow": "NONE",
                                       "dynamicTriggerPathList": [],
                                       "fontFamily": "System Default",
-                                      "dynamicBindingPathList": [
-                                        {
-                                          "key": "text"
-                                        }
-                                      ],
+                                      "dynamicBindingPathList": [],
                                       "leftColumn": 34,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "<strong>Real-time Risk:</strong> {{employeeList.selectedItem.risk}}",
+                                      "text": "<strong>Real-time Risk:</strong> 3",
                                       "key": "i5hlgg4v10",
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 53,
@@ -4820,15 +4824,12 @@
                                       "leftColumn": 17,
                                       "dynamicBindingPathList": [
                                         {
-                                          "key": "text"
-                                        },
-                                        {
                                           "key": "fontFamily"
                                         }
                                       ],
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "<strong>Content: </strong>{{employeeList.selectedItem.content}}",
+                                      "text": "<strong>Content: </strong>Recently, I've been feeling absent-minded. To be honest, if I got dumped, it's my own fault. I don't even like myself anymore—I'm spoiled, selfish, always looking for small advantages, not studying or working hard, just eating and sleeping all day, and spending the rest of my time on useless chatter and playing with my phone. I've developed thick dark circles under my eyes. I've been living like this for the past eleven days, and it's really shocking to me. I don't have a sense of purpose, or maybe I do, but I just can't muster the energy. Today, I had a video call with my significant other, and as I looked at my increasingly chubby face and greasy hair... the whole text [SEP] I gradually became uninteresting, and I don't know why. Truly, I saw you giving up on me.",
                                       "key": "jt2teg2lzv",
                                       "isDeprecated": false,
                                       "rightColumn": 64,
@@ -4980,15 +4981,11 @@
                                       "overflow": "NONE",
                                       "dynamicTriggerPathList": [],
                                       "fontFamily": "System Default",
-                                      "dynamicBindingPathList": [
-                                        {
-                                          "key": "text"
-                                        }
-                                      ],
+                                      "dynamicBindingPathList": [],
                                       "leftColumn": 17,
                                       "shouldTruncate": false,
                                       "truncateButtonColor": "#FFC13D",
-                                      "text": "<strong>Negativity:</strong> {{employeeList.selectedItem.negativity}}",
+                                      "text": "<strong>Negativity:</strong> 2",
                                       "key": "i5hlgg4v10",
                                       "labelTextSize": "0.875rem",
                                       "rightColumn": 32,
@@ -5437,7 +5434,7 @@
                       "key": "rlznr16x6c",
                       "labelTextSize": "0.875rem",
                       "backgroundColor": "transparent",
-                      "rightColumn": 51,
+                      "rightColumn": 62,
                       "itemBackgroundColor": "#FFFFFF",
                       "widgetId": "k61omoehzv",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
