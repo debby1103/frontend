@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 1100,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -128,10 +128,10 @@
               "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "yAxisName": "score",
+              "yAxisName": "<strong>Score</strong>",
               "chartName": "Contribution to final result",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "xAxisName": "Post ID",
+              "xAxisName": "<strong>Post ID</strong>",
               "chartType": "COLUMN_CHART"
             },
             {
@@ -855,6 +855,7 @@
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "setAdaptiveYMin": false,
               "widgetName": "Chart1",
               "allowScroll": false,
               "dynamicPropertyPathList": [
@@ -963,10 +964,10 @@
               "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "yAxisName": "Risk Level",
+              "yAxisName": "<strong>Risk Level</strong>",
               "chartName": "Real-time detection results",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "xAxisName": "Post ID",
+              "xAxisName": "<strong>Post ID</strong>",
               "chartType": "LINE_CHART"
             },
             {
