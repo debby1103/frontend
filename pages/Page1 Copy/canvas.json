@@ -215,7 +215,7 @@
               "isLoading": false,
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "buttonVariant": "PRIMARY",
+              "buttonVariant": "SECONDARY",
               "placement": "CENTER"
             },
             {
