@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1490,
+          "bottomRow": 1790,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,6 +28,114 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "setAdaptiveYMin": true,
+              "widgetName": "Chart1CopyCopy",
+              "allowScroll": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "图表",
+              "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations",
+                "chart"
+              ],
+              "topRow": 103,
+              "bottomRow": 132,
+              "parentRowSpace": 10,
+              "type": "CHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "1v3itc527r": {
+                  "seriesName": "",
+                  "data": "[{\"x\": \"Recently\", \"y\": 0.07}, {\"x\": \"I'm\", \"y\": 0.12}, {\"x\": \"feeling\", \"y\": 0.07}, {\"x\": \"absent-minded\", \"y\": 0.43}, {\"x\": \"To\", \"y\": 0.07}, {\"x\": \"be\", \"y\": 0.1229}, {\"x\": \"honest\", \"y\": 0.1229}, {\"x\": \"if\", \"y\": 0.1229}, {\"x\": \"I\", \"y\": 0.1229}, {\"x\": \"Post 10\", \"y\": 0.1229}, {\"x\": \"Post 11\", \"y\": 0.1229}, {\"x\": \"Post 12\", \"y\": 0.1229}, {\"x\": \"Post 13\", \"y\": 0.1229}, {\"x\": \"Post 14\", \"y\": 0.185}, {\"x\": \"Post 15\", \"y\": 0.1229}, {\"x\": \"Post 16\", \"y\": 0.1229}, {\"x\": \"Post 17\", \"y\": 0.1229}, {\"x\": \"Post 18\", \"y\": 0.1229}, {\"x\": \"Post 19\", \"y\": 0.1229}, {\"x\": \"Post 20\", \"y\": 0.15}, {\"x\": \"Post 21\", \"y\": 0.1229}, {\"x\": \"Post 22\", \"y\": 0.1229}, {\"x\": \"Post 23\", \"y\": 0.5692850351333618}, {\"x\": \"Post 24\", \"y\": 0.1229}, {\"x\": \"Post 25\", \"y\": 0.19}, {\"x\": \"Post 26\", \"y\": 0.3}, {\"x\": \"Post 27\", \"y\": 0.15}, {\"x\": \"Post 28\", \"y\": 0.42930275201797485}, {\"x\": \"Post 29\", \"y\": 0.27}, {\"x\": \"Post 30\", \"y\": 0.23}, {\"x\": \"Post 31\", \"y\": 0.15}, {\"x\": \"Post 32\", \"y\": 0.1229}, {\"x\": \"Post 33\", \"y\": 0.1285}, {\"x\": \"Post 34\", \"y\": 0.16}, {\"x\": \"Post 35\", \"y\": 0.1229}, {\"x\": \"Post 36\", \"y\": 0.1329}, {\"x\": \"Post 37\", \"y\": 0.1431}, {\"x\": \"Post 38\", \"y\": 0.1229}, {\"x\": \"Post 39\", \"y\": 0.21},{\"x\":\"Post 40\",\"y\":0.1229},{\"x\": \"Post 41\", \"y\": 0.3229},{\"x\": \"Post 42\", \"y\": 0.1229},{\"x\": \"Post 43\", \"y\": 0.4}]"
+                }
+              },
+              "animateLoading": false,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 13.90625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 5,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "data": [
+                    {
+                      "label": "产品1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "产品2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "产品3",
+                      "value": 32000
+                    }
+                  ],
+                  "chart": {
+                    "caption": "销售报告",
+                    "xAxisName": "产品线",
+                    "yAxisName": "收入（元）",
+                    "theme": "fusion",
+                    "alignCaptionWithCanvas": 1,
+                    "captionFontSize": "24",
+                    "captionAlignment": "center",
+                    "captionPadding": "20",
+                    "captionFontColor": "#231F20",
+                    "legendIconSides": "4",
+                    "legendIconBgAlpha": "100",
+                    "legendIconAlpha": "100",
+                    "legendPosition": "top",
+                    "canvasPadding": "0",
+                    "chartLeftMargin": "20",
+                    "chartTopMargin": "10",
+                    "chartRightMargin": "40",
+                    "chartBottomMargin": "10",
+                    "xAxisNameFontSize": "14",
+                    "labelFontSize": "12",
+                    "labelFontColor": "#716e6e",
+                    "xAxisNameFontColor": "#716e6e",
+                    "yAxisNameFontSize": "14",
+                    "yAxisValueFontSize": "12",
+                    "yAxisValueFontColor": "#716e6e",
+                    "yAxisNameFontColor": "#716e6e"
+                  }
+                }
+              },
+              "key": "f7347cz6hr",
+              "isDeprecated": false,
+              "rightColumn": 36,
+              "widgetId": "s2i3wl4wyz",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelOrientation": "auto",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "<strong>Score</strong>",
+              "chartName": "Contribution to post #43 negativity",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "<strong>Word</strong>",
+              "chartType": "COLUMN_CHART"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Chart1Copy1",
               "allowScroll": false,
               "displayName": "图表",
@@ -38,8 +146,8 @@
                 "visualisations",
                 "chart"
               ],
-              "topRow": 102,
-              "bottomRow": 134,
+              "topRow": 132,
+              "bottomRow": 164,
               "parentRowSpace": 10,
               "type": "CHART_WIDGET",
               "hideCard": false,
@@ -144,8 +252,8 @@
                 "submit",
                 "button"
               ],
-              "topRow": 136,
-              "bottomRow": 140,
+              "topRow": 164,
+              "bottomRow": 168,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -229,8 +337,8 @@
                 "calendar",
                 "date picker"
               ],
-              "topRow": 134,
-              "bottomRow": 141,
+              "topRow": 164,
+              "bottomRow": 171,
               "shortcuts": false,
               "parentRowSpace": 10,
               "labelWidth": 5,
