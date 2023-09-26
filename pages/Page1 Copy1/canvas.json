@@ -262,7 +262,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "<strong>Content: </strong>Recently, I am feeling <u>absent-minded</u>. To be honest, if I got dumped, it is my own fault. I do not even like myself anymore—I am spoiled, selfish, always looking for small advantages, not... studying or working hard, just eating and sleeping all day, and spending the rest of my time on useless chatter and playing with my phone.",
+                      "text": "<strong>Content: </strong>Recently, I am feeling <u>absent-minded</u>. To be honest, if I got dumped, it is my own <u>fault</u>. I do not even like myself anymore—I am spoiled, selfish, always looking for small advantages, not studying or working hard, just eating and sleeping all day, and spending the rest of... my time on useless chatter and playing with my phone.",
                       "key": "jt2teg2lzv",
                       "isDeprecated": false,
                       "rightColumn": 59,
