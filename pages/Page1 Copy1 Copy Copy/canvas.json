@@ -116,7 +116,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 31,
                       "dynamicHeight": "FIXED",
                       "widgetId": "noxalwpezb",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -173,7 +173,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 31,
                       "dynamicHeight": "FIXED",
                       "widgetId": "zog3vm332f",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -947,7 +947,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 31,
                       "dynamicHeight": "FIXED",
                       "widgetId": "9hyb5rhgq4",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1138,7 +1138,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 8.209228515625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
+                      "leftColumn": 31,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1151,7 +1151,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 43,
                       "isDefaultClickDisabled": true,
                       "widgetId": "5qc2bb8jhd",
                       "isVisible": true,
@@ -1185,7 +1185,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
+                      "leftColumn": 31,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1198,7 +1198,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 43,
                       "isDefaultClickDisabled": true,
                       "widgetId": "nh117nmwc4",
                       "isVisible": true,
@@ -1232,7 +1232,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
+                      "leftColumn": 31,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1245,7 +1245,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 43,
                       "isDefaultClickDisabled": true,
                       "widgetId": "pwm4yqqsy2",
                       "isVisible": true,
