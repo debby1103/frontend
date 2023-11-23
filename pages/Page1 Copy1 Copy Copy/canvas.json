@@ -373,7 +373,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 37,
                       "dynamicHeight": "FIXED",
                       "widgetId": "54qqtm3e1b",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -431,7 +431,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 41,
+                      "rightColumn": 37,
                       "dynamicHeight": "FIXED",
                       "widgetId": "810991sy7c",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -465,7 +465,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 6.4990234375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
+                      "leftColumn": 37,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -478,7 +478,7 @@
                       "isDisabled": false,
                       "key": "o9uh0gxysc",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 50,
                       "isDefaultClickDisabled": true,
                       "widgetId": "xoui5ijzm2",
                       "isVisible": true,
@@ -1091,7 +1091,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 8.209228515625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 41,
+                      "leftColumn": 37,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1104,7 +1104,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 54,
+                      "rightColumn": 50,
                       "isDefaultClickDisabled": true,
                       "widgetId": "le99rc4dmp",
                       "isVisible": true,
