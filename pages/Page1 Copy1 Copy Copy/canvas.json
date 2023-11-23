@@ -173,7 +173,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 43,
+                      "rightColumn": 41,
                       "dynamicHeight": "FIXED",
                       "widgetId": "zog3vm332f",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1138,7 +1138,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 8.209228515625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 43,
+                      "leftColumn": 41,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1151,7 +1151,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 53,
                       "isDefaultClickDisabled": true,
                       "widgetId": "5qc2bb8jhd",
                       "isVisible": true,
