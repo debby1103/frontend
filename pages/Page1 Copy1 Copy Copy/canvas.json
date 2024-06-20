@@ -647,7 +647,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Sequence-level feedback",
+                      "text": "Post-level feedback",
                       "key": "jt2teg2lzv",
                       "isDeprecated": false,
                       "rightColumn": 49,
