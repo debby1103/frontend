@@ -48,7 +48,7 @@
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 11,
+              "leftColumn": 8,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -108,7 +108,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"car\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"sound\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"window\",\n    \"value\": \"RED\"\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"phone\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"yesterday\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"savor\",\n    \"value\": \"RED\"\n  }\n]",
                       "labelStyle": "BOLD",
                       "placeholderText": "请选择",
                       "isDisabled": false,
@@ -116,7 +116,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 31,
+                      "rightColumn": 57,
                       "dynamicHeight": "FIXED",
                       "widgetId": "noxalwpezb",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -165,9 +165,9 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"Non-suicidal (level 0)\",\n    \"value\": \"Non-suicidal (level 0)\"\n  },\n  {\n    \"label\": \"Suicidal indicator (level 1)\",\n    \"value\": \"Suicidal indicator (level 1)\"\n  },\n  {\n    \"label\": \"Suicide ideation (level 2)\",\n    \"value\": \"Suicide ideation (level 2)\"\n  },\n\t{\"label\":\"Suicidal behavior (level 3)\",\n\t\"value\":\"Suicidal behavior (level 3)\"},\n\t{\n\t\"label\":\"Suicidal attempt (level 4)\",\n\t\"value\":\"Suicidal attempt (level 4)\"\n\t}\n]",
+                      "options": "[\n  {\n    \"label\": \"Non-suicidal (level 0)\",\n    \"value\": \"Non-suicidal (level 0)\"\n  },\n  {\n    \"label\": \"Suicidal indicator (level 1)\",\n    \"value\": \"Suicidal indicator (level 1)\"\n  },\n  {\n    \"label\": \"Level 2\",\n    \"value\": \"Suicide ideation (level 2)\"\n  },\n\t{\"label\":\"Suicidal behavior (level 3)\",\n\t\"value\":\"Suicidal behavior (level 3)\"},\n\t{\n\t\"label\":\"Suicidal attempt (level 4)\",\n\t\"value\":\"Suicidal attempt (level 4)\"\n\t}\n]",
                       "labelStyle": "BOLD",
-                      "placeholderText": "Level 2",
+                      "placeholderText": "N/A",
                       "isDisabled": false,
                       "key": "g63q01h86e",
                       "labelTextSize": "1rem",
@@ -275,7 +275,7 @@
                       "leftColumn": 32,
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "<strong>Time:</strong> 2019-02-21 23:56",
+                      "text": "<strong>Time:</strong> 2012-7-13 09:24",
                       "key": "i5hlgg4v10",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 59,
@@ -365,7 +365,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"Post#56\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Post#65\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Post#73\",\n    \"value\": \"RED\"\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"Post#7\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Post#23\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Post#57\",\n    \"value\": \"RED\"\n  }\n]",
                       "labelStyle": "BOLD",
                       "placeholderText": "请选择",
                       "isDisabled": false,
@@ -423,7 +423,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"Post#50\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Post#81\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Post#86\",\n    \"value\": \"RED\"\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"Post#71\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Post#73\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Post#88\",\n    \"value\": \"RED\"\n  }\n]",
                       "labelStyle": "BOLD",
                       "placeholderText": "请选择",
                       "isDisabled": false,
@@ -729,7 +729,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Lost sleep again. I overheard my parents discussing natural gas payments, budgeting for groceries for the month, and the expenses for car maintenance outside my door. The sound of raindrops hitting the window only added to my unease.\n\n\n\n\n\n",
+                      "text": "When the word \"Dad\" appears on my phone screen, I still can't hold back my tears...So much happened yesterday. It's better to shut myself in an enclosed space and lick my wounds, to savor this solitude and helplessness.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                       "key": "jt2teg2lzv",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -885,7 +885,7 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Select",
+                      "text": "View Post",
                       "isDisabled": false,
                       "key": "o9uh0gxysc",
                       "isDeprecated": false,
@@ -939,7 +939,7 @@
                         }
                       ],
                       "labelPosition": "Top",
-                      "options": "[\n  {\n    \"label\": \"lost\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"sleep\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"unease\",\n    \"value\": \"RED\"\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"tears\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"wounds\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"helplessness\",\n    \"value\": \"RED\"\n  }\n]",
                       "labelStyle": "BOLD",
                       "placeholderText": "请选择",
                       "isDisabled": false,
@@ -947,7 +947,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 31,
+                      "rightColumn": 57,
                       "dynamicHeight": "FIXED",
                       "widgetId": "9hyb5rhgq4",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -967,7 +967,7 @@
                       "isFilterable": true,
                       "displayName": "下拉单选",
                       "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-                      "labelText": "Correct suicide risk of user#078",
+                      "labelText": "Correct suicide risk of user#012",
                       "searchTags": [
                         "dropdown",
                         "select"
@@ -1068,7 +1068,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "iconAlign": "left",
-                      "defaultText": "70",
+                      "defaultText": "73",
                       "minDynamicHeight": 4
                     },
                     {
@@ -1185,7 +1185,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 31,
+                      "leftColumn": 57,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1198,7 +1198,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 43,
+                      "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "nh117nmwc4",
                       "isVisible": true,
@@ -1232,7 +1232,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 31,
+                      "leftColumn": 57,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1245,7 +1245,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 43,
+                      "rightColumn": 64,
                       "isDefaultClickDisabled": true,
                       "widgetId": "pwm4yqqsy2",
                       "isVisible": true,
@@ -1277,7 +1277,7 @@
               "key": "enppix0n3h",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 54,
+              "rightColumn": 61,
               "dynamicHeight": "FIXED",
               "widgetId": "jacrh1u12s",
               "containerStyle": "card",
@@ -1576,7 +1576,7 @@
               ],
               "animateLoading": true,
               "parentColumnSpace": 13.984375,
-              "leftColumn": 56,
+              "leftColumn": 61,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
@@ -1640,7 +1640,7 @@
               "animateLoading": true,
               "min": 0,
               "parentColumnSpace": 13.984375,
-              "leftColumn": 56,
+              "leftColumn": 61,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"

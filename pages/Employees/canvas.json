@@ -2613,7 +2613,7 @@
                                   "widgetName": "Canvas13CopyCopyCopy",
                                   "displayName": "Canvas",
                                   "topRow": 0,
-                                  "bottomRow": 110,
+                                  "bottomRow": 120,
                                   "parentRowSpace": 1,
                                   "type": "CANVAS_WIDGET",
                                   "canExtend": false,
@@ -2930,7 +2930,7 @@
                                         "字符"
                                       ],
                                       "topRow": 3,
-                                      "bottomRow": 7,
+                                      "bottomRow": 9,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
