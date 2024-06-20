@@ -136,7 +136,7 @@
                       "isFilterable": true,
                       "displayName": "下拉单选",
                       "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-                      "labelText": "Correct negative emotion level of Post#70",
+                      "labelText": "Correct negative emotion level of Post#73",
                       "searchTags": [
                         "dropdown",
                         "select"
@@ -148,7 +148,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `Level 2`))(Select1Copy.options, Select1Copy.serverSideFiltering) }}",
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `Suicide ideation (level 2)`))(Select1Copy.options, Select1Copy.serverSideFiltering) }}",
                       "animateLoading": true,
                       "parentColumnSpace": 13.984375,
                       "dynamicTriggerPathList": [],
