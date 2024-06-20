@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 1292,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -62,7 +62,7 @@
                   "widgetName": "Canvas16",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 1010,
+                  "bottomRow": 1020,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -619,88 +619,6 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "fontSize": "1.25rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text17Copy1",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph"
-                      ],
-                      "topRow": 9,
-                      "bottomRow": 13,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 5.6759033203125,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 62,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "fontFamily"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "<strong>Time: </strong>July 8, 2019, 19:53",
-                      "key": "jt2teg2lzv",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "p3hppucf72",
-                      "logBlackList": {
-                        "isVisible": true,
-                        "text": true,
-                        "fontSize": true,
-                        "fontStyle": true,
-                        "textAlign": true,
-                        "textColor": true,
-                        "truncateButtonColor": true,
-                        "widgetName": true,
-                        "shouldTruncate": true,
-                        "overflow": true,
-                        "version": true,
-                        "animateLoading": true,
-                        "searchTags": true,
-                        "type": true,
-                        "hideCard": true,
-                        "isDeprecated": true,
-                        "replacement": true,
-                        "displayName": true,
-                        "key": true,
-                        "iconSVG": true,
-                        "isCanvas": true,
-                        "minHeight": true,
-                        "widgetId": true,
-                        "renderMode": true,
-                        "fontFamily": true,
-                        "borderRadius": true,
-                        "isLoading": true,
-                        "parentColumnSpace": true,
-                        "parentRowSpace": true,
-                        "leftColumn": true,
-                        "rightColumn": true,
-                        "topRow": true,
-                        "bottomRow": true,
-                        "parentId": true,
-                        "dynamicBindingPathList": true
-                      },
-                      "isVisible": true,
-                      "fontStyle": "",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "dgdbfr0qb9",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
                     {
@@ -1619,67 +1537,6 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 4
-            },
-            {
-              "widgetName": "NumberSlider1",
-              "defaultValue": 10,
-              "displayName": "数字滑动条",
-              "iconSVG": "/static/media/icon.d9e8d88d666a1aa137b009e36f0c4bc3.svg",
-              "tooltipAlwaysOn": false,
-              "labelText": "百分比",
-              "searchTags": [
-                "range",
-                "number slider"
-              ],
-              "topRow": 25,
-              "bottomRow": 33,
-              "parentRowSpace": 10,
-              "labelWidth": 8,
-              "type": "NUMBER_SLIDER_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "min": 0,
-              "parentColumnSpace": 13.984375,
-              "leftColumn": 61,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                }
-              ],
-              "shouldTruncate": false,
-              "labelPosition": "Left",
-              "isDisabled": false,
-              "key": "i15tw3x225",
-              "labelTextSize": "0.875rem",
-              "isDeprecated": false,
-              "rightColumn": 64,
-              "max": 100,
-              "widgetId": "g34ri2s1uw",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "isVisible": true,
-              "marks": [
-                {
-                  "value": 25,
-                  "label": "25%"
-                },
-                {
-                  "value": 50,
-                  "label": "50%"
-                },
-                {
-                  "value": 75,
-                  "label": "75%"
-                }
-              ],
-              "sliderSize": "m",
-              "shouldScroll": false,
-              "version": 1,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "step": 1,
-              "showMarksLabel": true
             }
           ]
         },
