@@ -62,7 +62,7 @@
                   "widgetName": "Canvas16",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 1040,
+                  "bottomRow": 1010,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -80,8 +80,8 @@
                         "typography",
                         "paragraph"
                       ],
-                      "topRow": 98,
-                      "bottomRow": 102,
+                      "topRow": 91,
+                      "bottomRow": 95,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -90,7 +90,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 5.6759033203125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 17,
+                      "leftColumn": 2,
                       "dynamicBindingPathList": [
                         {
                           "key": "fontFamily"
@@ -101,7 +101,7 @@
                       "text": "Post-level feedback",
                       "key": "jt2teg2lzv",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 49,
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "g0ylbgutuc",
@@ -177,7 +177,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 6.4990234375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
+                      "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -198,7 +198,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 55,
                       "dynamicHeight": "FIXED",
                       "widgetId": "noxalwpezb",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1029,7 +1029,7 @@
                       "labelTextSize": "1rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 55,
                       "dynamicHeight": "FIXED",
                       "widgetId": "9hyb5rhgq4",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1267,7 +1267,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 57,
+                      "leftColumn": 55,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1280,7 +1280,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "nh117nmwc4",
                       "isVisible": true,
@@ -1314,7 +1314,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 9.083251953125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 57,
+                      "leftColumn": 55,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1327,7 +1327,7 @@
                       "isDisabled": false,
                       "key": "wzi6uatnvw",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "pwm4yqqsy2",
                       "isVisible": true,
